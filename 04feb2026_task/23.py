@@ -1,0 +1,12 @@
+'''23. Sort list of dictionaries by key.
+        Input:
+        [{'age':30},{'age':20}]
+        Output:
+        [{'age':20},{'age':30}]
+        '''
+
+data = [{'age': 30}, {'age': 20}]
+
+result = sorted(data, key=lambda x: x['age'])
+print(result)
+
